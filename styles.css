@@ -1,11 +1,14 @@
 body {
   background-color: #0D192B;
+  margin-bottom: 0px;
 }
-
+.card-body{
+  padding-bottom: 0px;
+}
 .card {
   text-align: center;
   background-color: #14253D;
-  margin: 20% 35% 40% 35%;
+  margin: 2% 35% 0% 35%;
   width: 350px;
   height: 600px;
   border-radius: 3%;
@@ -107,4 +110,9 @@ padding-top: 5%;
 .col3:hover
 {
  color: cyan;
+}
+.attribution
+{
+padding-right: 7%;
+  text-align: left;
 }
